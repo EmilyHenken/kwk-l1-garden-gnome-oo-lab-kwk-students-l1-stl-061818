@@ -2,7 +2,7 @@ class GardenGnome
 
   class GardenGnome
   attr_accessor :name, :age, :gluten_allergy
-  attr_reader :title 
+  attr_reader :personality
 
   def initialize(name, age, gluten_allergy)
     @name = name
